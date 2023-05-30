@@ -1,6 +1,6 @@
 {
-  "hullName": "New Hull",
-  "hullId": "new_hull",
+  "hullName": "Ripper",
+  "hullId": "sf_ripper",
   "hullSize": "FRIGATE",
   "spriteName": "graphics/Sangvis/ships/sf_ripper.png",
   "style": "LOW_TECH",
@@ -11,11 +11,12 @@
   "shieldCenter": [0, -0],
   "shieldRadius": 53.5,
   "viewOffset": 0,
+  "builtInMods": ["rugged"],
   "weaponSlots": [
     {
       "id": "WS0001",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 90,
       "angle": 0,
@@ -24,7 +25,7 @@
     {
       "id": "WS0002",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 90,
       "angle": -0,
