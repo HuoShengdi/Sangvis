@@ -1,0 +1,115 @@
+{
+  "hullName": "Vespid",
+  "hullId": "sf_vespid",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/Sangvis/ships/sf_vespid.png",
+  "style": "HIGH_TECH",
+  "height": 112,
+  "width": 108,
+  "center": [54, 56],
+  "collisionRadius": 65,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 62.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [5, 40]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": -0,
+      "locations": [5, -40]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 30,
+      "locations": [29, 13]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -30,
+      "locations": [29, -13]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-33, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-44, 17],
+      "length": 40,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-44, -17],
+      "length": 40,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15.5, 29.5],
+      "length": 30,
+      "width": 10,
+      "angle": 150,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15.5, -29.5],
+      "length": 30,
+      "width": 10,
+      "angle": -150,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    27, -4,
+    53, -13,
+    33, -25.5,
+    4, -27.5,
+    4, -49,
+    -12, -49,
+    -12, -32,
+    -18, -26,
+    -46, -26,
+    -46, 26,
+    -18, 26,
+    -12, 32,
+    -12, 49,
+    4, 49,
+    4, 27.5,
+    33, 25.5,
+    53, 13,
+    27, 4
+  ]
+}

@@ -4,5 +4,6 @@
     "author":"HuoShengdi",
     "version":"0.0.1",
     "description":"",
-    "gameVersion":"0.96a"
+    "gameVersion":"0.97a-RC11",
+    "jars":["jars/sangvis.jar"]
 }

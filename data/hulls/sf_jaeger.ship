@@ -1,0 +1,102 @@
+{
+  "hullName": "Jaeger",
+  "hullId": "sf_jaeger",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/Sangvis/ships/sf_jaeger.png",
+  "style": "HIGH_TECH",
+  "height": 125,
+  "width": 84,
+  "center": [42, 60],
+  "collisionRadius": 71,
+  "shieldCenter": [4, -0],
+  "shieldRadius": 65.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [21, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [24, 30]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [24, -30.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-38, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-48, 16],
+      "length": 40,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-48, -18],
+      "length": 40,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-18, 31],
+      "length": 30,
+      "width": 10,
+      "angle": 150,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-18, -33],
+      "length": 30,
+      "width": 10,
+      "angle": -150,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    28, -6,
+    64, -6,
+    21, -27,
+    8, -42,
+    -11, -42,
+    -22, -26,
+    -50, -26,
+    -50, 26,
+    -22, 26,
+    -11, 42,
+    8, 42,
+    21, 27,
+    64, 6,
+    28, 6
+  ]
+}
