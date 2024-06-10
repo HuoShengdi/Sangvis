@@ -3,7 +3,7 @@
   "hullId": "sf_ripper",
   "hullSize": "FRIGATE",
   "spriteName": "graphics/Sangvis/ships/sf_ripper.png",
-  "style": "LOW_TECH",
+  "style": "HIGH_TECH",
   "height": 94,
   "width": 84,
   "center": [42, 49],

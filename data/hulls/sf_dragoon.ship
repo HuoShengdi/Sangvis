@@ -1,0 +1,182 @@
+{
+  "hullName": "Dragoon",
+  "hullId": "sf_dragoon",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/Sangvis/ships/sf_dragoon.png",
+  "style": "HIGH_TECH",
+  "height": 165,
+  "width": 130,
+  "center": [65, 77.5],
+  "collisionRadius": 104,
+  "shieldCenter": [5, 0],
+  "shieldRadius": 93.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [60, 27]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [60, -27]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [43, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 30,
+      "locations": [20, 20]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [20, -20]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-38, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-66, 26],
+      "length": 50,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-66, -26],
+      "length": 50,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-65.5, 3],
+      "length": 50,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-65.5, -3],
+      "length": 50,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-65.5, -0],
+      "length": 50,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-36.5, 46],
+      "length": 50,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-36.5, -46],
+      "length": 50,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-34.5, 49],
+      "length": 50,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-34.5, -49],
+      "length": 50,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-33.5, 52],
+      "length": 50,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-33.5, -52],
+      "length": 50,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    77, -3,
+    68, -12,
+    84, -12,
+    63, -27,
+    73, -36,
+    34, -46,
+    18, -46,
+    -29, -64,
+    -48, -35,
+    -67, -35,
+    -67, 35,
+    -48, 35,
+    -29, 64,
+    18, 46,
+    34, 46,
+    73, 36,
+    63, 27,
+    84, 12,
+    68, 12,
+    77, 3
+  ]
+}
