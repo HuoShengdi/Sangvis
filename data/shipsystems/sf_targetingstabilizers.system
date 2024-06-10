@@ -1,0 +1,23 @@
+{
+	"id":"sf_targetingstabilizers",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.sf_TargetingStabilizersAI",
+
+	"statsScript":"data.shipsystems.scripts.sf_TargetingStabilizersStats",
+
+	"weaponGlowColor":[255,0,120,200],
+	"weaponTypes":[ENERGY,BALLISTIC],
+
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.8,
+	"soundFilterGainHF":0.3,
+
+	"clampTurnRateAfter":true,
+
+	"useSound":"system_high_energy_focus_activate",
+	"deactivateSound":"system_high_energy_focus_deactivate",
+
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"system_high_energy_focus_loop",
+}
