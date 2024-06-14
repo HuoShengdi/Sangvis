@@ -87,8 +87,9 @@ public class sf_TargetingStabilizersAI implements ShipSystemAIScript {
                 //ignore fighters, allies, and dead ships
                 if (tracking.getOwner() == ship.getOwner() || tracking.isHulk() || tracking.isFighter()
                         || closestDistance < nominalRange 
+                        || flags.hasFlag(ShipwideAIFlags.AIFlags.BACKING_OFF)
                         || ship.getCurrFlux()/ship.getMaxFlux() > 0.5f) {
-                    //do nothing
+                    shouldUseShipSystem = false;
                 } else if (closestDistance > nominalRange 
                         && closestDistance < activeRange) {
                     shouldUseShipSystem = true;

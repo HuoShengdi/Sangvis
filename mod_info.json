@@ -5,5 +5,12 @@
     "version":"0.0.1",
     "description":"",
     "gameVersion":"0.97a-RC11",
-    "jars":["jars/sangvis.jar"]
+    "jars":["jars/sangvis.jar"],
+    "modPlugin":"data.scripts.SangvisModPlugin",
+    "dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib"
+        }
+    ]
 }

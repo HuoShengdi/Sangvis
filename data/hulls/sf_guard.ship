@@ -51,7 +51,7 @@
     {
       "id": "WS0005",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 270,
       "angle": 180,
@@ -65,7 +65,7 @@
       "width": 15,
       "angle": 180,
       "contrailSize": 15,
-      "style": "LOW_TECH"
+      "style": "HIGH_TECH"
     },
     {
       "location": [-40, -17],
@@ -73,7 +73,7 @@
       "width": 15,
       "angle": -180,
       "contrailSize": 15,
-      "style": "LOW_TECH"
+      "style": "HIGH_TECH"
     },
     {
       "location": [-20, 39],
@@ -81,7 +81,7 @@
       "width": 10,
       "angle": 150,
       "contrailSize": 30,
-      "style": "LOW_TECH"
+      "style": "HIGH_TECH"
     },
     {
       "location": [-20, -39],
@@ -89,7 +89,7 @@
       "width": 10,
       "angle": -150,
       "contrailSize": 30,
-      "style": "LOW_TECH"
+      "style": "HIGH_TECH"
     }
   ],
   "bounds": [

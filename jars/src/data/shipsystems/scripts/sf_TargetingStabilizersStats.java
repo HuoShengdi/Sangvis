@@ -16,7 +16,7 @@ public class sf_TargetingStabilizersStats extends BaseShipSystemScript {
     @Override
     public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {
         CombatEntityAPI entity = stats.getEntity();
-        ShipAPI ship = null;
+        ShipAPI ship;
         if (!(entity instanceof ShipAPI)) {
             return;
         } else {
@@ -25,9 +25,9 @@ public class sf_TargetingStabilizersStats extends BaseShipSystemScript {
 
         if (ship != null) {
             if (ship.getVariant().hasHullMod("safetyoverrides")) {
-                SPEED_MALUS = -75f;
+                SPEED_MALUS = -85f;
             } else {
-                SPEED_MALUS = -50f;
+                SPEED_MALUS = -60f;
             }
         }
 
