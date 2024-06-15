@@ -16,7 +16,7 @@
       "id": "WS0001",
       "size": "SMALL",
       "type": "SYNERGY",
-      "mount": "TURRET",
+      "mount": "HARDPOINT",
       "arc": 10,
       "angle": 0,
       "locations": [24, 23]
@@ -25,7 +25,7 @@
       "id": "WS0002",
       "size": "SMALL",
       "type": "SYNERGY",
-      "mount": "TURRET",
+      "mount": "HARDPOINT",
       "arc": 10,
       "angle": -0,
       "locations": [24, -23]

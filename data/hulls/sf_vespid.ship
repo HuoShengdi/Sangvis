@@ -15,7 +15,7 @@
     {
       "id": "WS0001",
       "size": "MEDIUM",
-      "type": "HYBRID",
+      "type": "ENERGY",
       "mount": "HARDPOINT",
       "arc": 10,
       "angle": 0,
@@ -24,7 +24,7 @@
     {
       "id": "WS0002",
       "size": "MEDIUM",
-      "type": "HYBRID",
+      "type": "ENERGY",
       "mount": "HARDPOINT",
       "arc": 10,
       "angle": -0,
@@ -33,7 +33,7 @@
     {
       "id": "WS0003",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 150,
       "angle": 30,
@@ -42,7 +42,7 @@
     {
       "id": "WS0004",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 150,
       "angle": -30,

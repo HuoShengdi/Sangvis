@@ -17,9 +17,9 @@ public class sf_BurstJetsStats extends BaseShipSystemScript {
             stats.getDeceleration().modifyPercent(id, 100f * effectLevel);
         } else {
             stats.getMaxSpeed().modifyFlat(id, 110f * effectLevel);
-            stats.getMaxSpeed().modifyPercent(id, 10f * effectLevel);
-            stats.getAcceleration().modifyFlat(id, 190f * effectLevel);
-            stats.getDeceleration().modifyFlat(id, 120f * effectLevel);
+            stats.getMaxSpeed().modifyPercent(id, 20f * effectLevel);
+            stats.getAcceleration().modifyFlat(id, 240f * effectLevel);
+            stats.getDeceleration().modifyFlat(id, 160f * effectLevel);
             stats.getTurnAcceleration().modifyFlat(id, 90f * effectLevel);
             stats.getTurnAcceleration().modifyPercent(id, 200f * effectLevel);
             stats.getMaxTurnRate().modifyFlat(id, 40f * effectLevel);
