@@ -126,7 +126,7 @@ public class Lycoris {
         
         //abandoned station marketplace
         Misc.setAbandonedStationMarket("abandoned_factory_market", butterflyStation);
-        butterflyStation.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addSpecial(new SpecialItemData("sf_core_bp",null), 1f);
+        butterflyStation.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addSpecial(new SpecialItemData("sf_core_package",null), 1f);
         butterflyStation.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addHullmods("sf_neural_cloud", 1);
         
         butterflyStation.setCustomDescriptionId("station_butterfly");
