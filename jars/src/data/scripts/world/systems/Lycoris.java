@@ -2,7 +2,7 @@ package data.scripts.world.systems;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;
-import com.fs.starfarer.api.impl.campaign.ids.Conditions;
+import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
 import com.fs.starfarer.api.impl.campaign.ids.Tags;
 import com.fs.starfarer.api.impl.campaign.ids.Terrain;
 import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
@@ -126,6 +126,8 @@ public class Lycoris {
         
         //abandoned station marketplace
         Misc.setAbandonedStationMarket("abandoned_factory_market", butterflyStation);
+        butterflyStation.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addSpecial(new SpecialItemData("sf_core_bp",null), 1f);
+        butterflyStation.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addHullmods("sf_neural_cloud", 1);
         
         butterflyStation.setCustomDescriptionId("station_butterfly");
         
