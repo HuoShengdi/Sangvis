@@ -52,15 +52,16 @@ public class Lycoris {
         innerJumpPoint.setStandardWormholeToHyperspaceVisual();
         innerJumpPoint.setCircularOrbit(system.getEntityById("lycoris"), 180, 1500f, 150f);
         system.addEntity(innerJumpPoint);
-        
+
+        system.addRingBand(lycoris_star, "misc", "rings_dust0", 256f, 1, Color.white, 256f, 2800, 210f);
         system.addAsteroidBelt(lycoris_star, // focus
-                61, // numAsteroids
+                161, // numAsteroids
                 2800, // orbit radius
                 240, // width
                 200, // minOrbitDays
                 220,
                 Terrain.ASTEROID_BELT,
-                "Lycoris "); // maxOrbitDays
+                "Lycoris Inner Band"); // maxOrbitDays
         
         //add comm relay
         SectorEntityToken relay = system.addCustomEntity("lycoris_relay",
@@ -70,8 +71,8 @@ public class Lycoris {
 
         relay.setCircularOrbitPointingDown(system.getEntityById("lycoris"), // focus
                 300, // angle
-                6400f, // orbit radius
-                360f); // orbit period (days)
+                4200f, // orbit radius
+                280f); // orbit period (days)
         
         //add sensor array
         SectorEntityToken sensors = system.addCustomEntity("lycoris_sensor_array",
@@ -96,24 +97,39 @@ public class Lycoris {
                 250f);
         
         //add home planet
-        PlanetAPI lunasia = system.addPlanet("sf_planet_lunasia", lycoris_star, "Lunasia", "tundra", 240, 120, 6400, 360f);
-        lunasia.getSpec().setCloudRotation(25f);
-        lunasia.applySpecChanges();
-        //lunasia.setCustomDescriptionId("planet_lunasia");
+//        PlanetAPI beilan = system.addPlanet("sf_planet_beilan", lycoris_star, "Beilan", "tundra", 240, 120, 6400, 360f);
+//        beilan.getSpec().setCloudRotation(25f);
+//        beilan.applySpecChanges();
+        //beilan.setCustomDescriptionId("planet_beilan");
         
-        //Add conditions to Lunasia
-        Misc.initConditionMarket(lunasia);
-        lunasia.getMarket().addCondition(Conditions.HABITABLE);
-        lunasia.getMarket().addCondition(Conditions.COLD);
-        lunasia.getMarket().addCondition(Conditions.FARMLAND_ADEQUATE);
-        lunasia.getMarket().addCondition(Conditions.ORE_MODERATE);
-        lunasia.getMarket().addCondition(Conditions.RARE_ORE_MODERATE);
-        lunasia.getMarket().addCondition(Conditions.INIMICAL_BIOSPHERE);
-        lunasia.getMarket().addCondition(Conditions.ROGUE_AI_CORE);
-        lunasia.getMarket().addCondition(Conditions.DECIVILIZED);
-        lunasia.getMarket().addCondition(Conditions.RUINS_VAST);
+        //Add conditions to Beilan
+//        Misc.initConditionMarket(beilan);
+//        beilan.getMarket().addCondition(Conditions.HABITABLE);
+//        beilan.getMarket().addCondition(Conditions.COLD);
+//        beilan.getMarket().addCondition(Conditions.FARMLAND_ADEQUATE);
+//        beilan.getMarket().addCondition(Conditions.ORE_MODERATE);
+//        beilan.getMarket().addCondition(Conditions.INIMICAL_BIOSPHERE);
+//        beilan.getMarket().addCondition(Conditions.ROGUE_AI_CORE);
+//        beilan.getMarket().addCondition(Conditions.DECIVILIZED);
+//        beilan.getMarket().addCondition(Conditions.RUINS_VAST);
         
-        float radiusAfter = StarSystemGenerator.addOrbitingEntities(system, lycoris_star, StarAge.OLD, 0, 1, 7500, 1, true);
+        //outer dust belt & asteroid field
+        system.addRingBand(lycoris_star, "misc", "rings_dust0", 256f, 3, Color.white, 256f, 7200, 400f);
+        system.addAsteroidBelt(lycoris_star, 120, 7200,300,380,420, Terrain.ASTEROID_BELT, "Lycoris Outer Band");
+        
+        //station hidden in belt
+        SectorEntityToken butterflyStation = system.addCustomEntity("lycoris_butterfly_station","Sangvis Base 0","station_side07","neutral");
+        butterflyStation.setCircularOrbitWithSpin(system.getEntityById("lycoris"), 360*(float)Math.random(), 7200, 400f, 9, 21);
+        butterflyStation.setDiscoverable(true);
+        butterflyStation.setDiscoveryXP(3000f);
+        butterflyStation.setSensorProfile(0.5f);
+        
+        //abandoned station marketplace
+        Misc.setAbandonedStationMarket("abandoned_factory_market", butterflyStation);
+        
+        butterflyStation.setCustomDescriptionId("station_butterfly");
+        
+        float radiusAfter = StarSystemGenerator.addOrbitingEntities(system, lycoris_star, StarAge.OLD, 1, 3, 8000, 1, true);
         
         system.autogenerateHyperspaceJumpPoints(true, true);
 

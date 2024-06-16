@@ -1,2 +1,5 @@
 id,type,text1,text2,text3,notes
 sf_targetingstabilizers,SHIP_SYSTEM,"Increases the Jaeger's weapon range and projectile velocity, but greatly reduces mobility.",Special,"Increases ballistic and energy weapon ranges by 500 SU and doubles projectile velocity, but greatly slows movement." 
+station_butterfly,CUSTOM,"An abandoned factory and research facility. Prominent signage marks it as property of Sangvis Ferri Industrial Manufacturing Company.",,"The docking facilities and life support remain fully functional, but the station is eerily empty aside from the occasional wandering maintenance drone. Signs of pitched battle dot the corridors, leading through several layers of disabled security checkpoints to a single lab near the facility's center. 
+
+This lab, too, is nearly empty, save for what appears to be an empty AI core housing of strange design, and most perplexingly, a single potted plant - a red spider lily."
