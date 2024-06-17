@@ -7,7 +7,8 @@ import data.scripts.world.systems.Lycoris;
 public class SangvisModPlugin extends BaseModPlugin {
     
     private static void initSangvis() {
-        new Lycoris().generate(Global.getSector());
+        new SFGen().generate(Global.getSector());
+        
     }
     
     @Override
