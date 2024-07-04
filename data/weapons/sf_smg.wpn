@@ -1,0 +1,47 @@
+{
+  "id": "sf_smg",
+  "specClass": "projectile",
+  "projectileSpecId": "sf_smg_shot",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/Sangvis/weapons/sf_smg_turret_base.png",
+  "turretGunSprite": "graphics/Sangvis/weapons/sf_smg_turret_recoil.png",
+  "hardpointSprite": "graphics/Sangvis/weapons/sf_smg_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/Sangvis/weapons/sf_smg_hardpoint_recoil.png",
+  "visualRecoil": 3,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    13,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    16,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "autocharge":true,
+  "muzzleFlashSpec": {
+    "length": 9,
+    "spread": 3,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "particleDuration": 0.1,
+    "particleCount": 7,
+    "particleColor": [
+      160,
+      180,
+      245,
+      200
+    ]
+  },
+  "fireSoundTwo": "sf_smg_fire"
+}

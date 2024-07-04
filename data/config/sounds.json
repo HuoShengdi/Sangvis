@@ -9,5 +9,10 @@
     {"file":"sounds/Sangvis/fx/systems/burstjet2.ogg","pitch":0.95,"volume":0.45},
     {"file":"sounds/Sangvis/fx/systems/burstjet1.ogg","pitch":0.95,"volume":0.45},
     {"file":"sounds/Sangvis/fx/systems/burstjet3.ogg","pitch":0.94,"volume":0.45}
+  ],
+  "sf_smg_fire": [
+    {"file":"sounds/Sangvis/fx/weapons/sf_smg_fire_01.ogg","pitch":1.02,"volume":0.22},
+    {"file":"sounds/Sangvis/fx/weapons/sf_smg_fire_01.ogg","pitch":1,"volume":0.25},
+    {"file":"sounds/Sangvis/fx/weapons/sf_smg_fire_01.ogg","pitch":0.98,"volume":0.22}
   ]
 }
